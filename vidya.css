@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content: ' ';
+    height: 85px;
+}
+#map{
+    position: relative;
+    left: 10%;
+}
+@media (min-width:768px){
+    #newsl-input{
+        width: 50%;
+    }
+}
+@media(max-width:768px){
+    #map{
+        left: -5%;
+    }
+}
